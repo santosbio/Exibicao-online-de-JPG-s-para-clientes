@@ -1,5 +1,6 @@
 body{
 	display:none;
+	background: #fff;
 }
 #jpreOverlay {
 	background-color: #fff;
@@ -33,59 +34,59 @@ body{
 
 	background-color:#E07300;
 	background-image: -moz-linear-gradient(-45deg, 
-		rgba(255,255,255,0.15) 0%, 
-		rgba(255,255,255,0.15) 25%, 
-		rgba(255,255,255,0) 25%, 
-		rgba(255,255,255,0) 50%, 
-		rgba(255,255,255,0.15) 50%, 
-		rgba(255,255,255,0.15) 75%, 
-		rgba(255,255,255,0) 75%, 
-		rgba(255,255,255,0) 100%);
+		#ddd 0%, 
+		#ddd 25%, 
+		white 25%, 
+		white 50%, 
+		#ddd 50%, 
+		#ddd 75%, 
+		white 75%, 
+		white 100%);
 	background-image: -webkit-gradient(linear, left top, right bottom, 
-		color-stop(0%,rgba(255,255,255,0.2)), 
-		color-stop(25%,rgba(255,255,255,0.2)), 
-		color-stop(25%,rgba(255,255,255,0)), 
-		color-stop(50%,rgba(255,255,255,0)), 
-		color-stop(50%,rgba(255,255,255,0.2)), 
-		color-stop(75%,rgba(255,255,255,0.2)),
-		color-stop(75%,rgba(255,255,255,0)),
-		color-stop(100%,rgba(255,255,255,0)));
+		color-stop(0%,white), 
+		color-stop(25%,white), 
+		color-stop(25%,white), 
+		color-stop(50%,white), 
+		color-stop(50%,white), 
+		color-stop(75%,white),
+		color-stop(75%,white),
+		color-stop(100%,white));
 	background-image: -webkit-linear-gradient(-45deg, 
 		rgba(255,255,255,0.3) 0%,
 		rgba(255,255,255,0.3) 25%,
-		rgba(255,255,255,0) 25%,
-		rgba(255,255,255,0) 50%,
+		white 25%,
+		white 50%,
 		rgba(255,255,255,0.3) 50%,
 		rgba(255,255,255,0.3) 75%,
-		rgba(255,255,255,0) 75%,
-		rgba(255,255,255,0) 100%);
+		white 75%,
+		white 100%);
 	background-image: -o-linear-gradient(-45deg, 
-		rgba(255,255,255,0.15) 0%,
-		rgba(255,255,255,0.15) 25%,
-		rgba(255,255,255,0) 25%,
-		rgba(255,255,255,0) 50%,
-		rgba(255,255,255,0.15) 50%,
-		rgba(255,255,255,0.15) 75%,
-		rgba(255,255,255,0) 75%,
-		rgba(255,255,255,0) 100%);
+		#ddd 0%,
+		#ddd 25%,
+		white 25%,
+		white 50%,
+		#ddd 50%,
+		#ddd 75%,
+		white 75%,
+		white 100%);
 	background-image: -ms-linear-gradient(-45deg, 
-		rgba(255,255,255,0.15) 0%,
-		rgba(255,255,255,0.15) 25%,
-		rgba(255,255,255,0) 25%,
-		rgba(255,255,255,0) 50%,
-		rgba(255,255,255,0.15) 50%,
-		rgba(255,255,255,0.15) 75%,
-		rgba(255,255,255,0) 75%,
-		rgba(255,255,255,0) 100%);
+		#ddd 0%,
+		#ddd 25%,
+		white 25%,
+		white 50%,
+		#ddd 50%,
+		#ddd 75%,
+		white 75%,
+		white 100%);
 	background-image: linear-gradient(135deg, 
-		rgba(255,255,255,0.15) 0%,
-		rgba(255,255,255,0.15) 25%,
-		rgba(255,255,255,0) 25%,
-		rgba(255,255,255,0) 50%,
-		rgba(255,255,255,0.15) 50%,
-		rgba(255,255,255,0.15) 75%,
-		rgba(255,255,255,0) 75%,
-		rgba(255,255,255,0) 100%);
+		#ddd 0%,
+		#ddd 25%,
+		white 25%,
+		white 50%,
+		#ddd 50%,
+		#ddd 75%,
+		white 75%,
+		white 100%);
 		
 	animation: progress 2s linear infinite;
 	-moz-animation: progress 2s linear infinite;
@@ -94,7 +95,7 @@ body{
 	-o-animation: progress 2s linear infinite;	
 }
 #jprePercentage {
-	color:#000;
+	color:#3b3b3b;
 	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
 	font-weight:bold;
 	text-align:center;
